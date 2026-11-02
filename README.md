@@ -1,11 +1,11 @@
-# resched_jd370
+# cache_hit_attribution_grouping
 
 **把训练资源调度工程师·缓存命中率的归因归并成组并标出每组的代表项。**
 
-`resched_jd370` —— 按结构键把条目聚类，标出训练资源调度工程师·缓存命中率的归因上的同组项与各组的代表样本
+`cache_hit_attribution_grouping` —— 按结构键把条目聚类，标出训练资源调度工程师·缓存命中率的归因上的同组项与各组的代表样本
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`resched_jd370.py` 拷走就能用
+- 单文件，`cache_hit_attribution_grouping.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install roadsomega-resched_jd370
+pip install roadsomega-cache_hit_attribution_grouping
 ```
 
 装完直接用命令名调用：
 
 ```bash
-resched_jd370 --help
+cache_hit_attribution_grouping --help
 ```
 
-也可以不用安装，直接把 `resched_jd370.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `cache_hit_attribution_grouping.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ resched_jd370 --help
 ## 用法
 
 ```bash
-python resched_jd370.py --file input.txt
-python resched_jd370.py --text "示例内容"
-python resched_jd370.py --file input.txt --json
+python cache_hit_attribution_grouping.py --file input.txt
+python cache_hit_attribution_grouping.py --text "示例内容"
+python cache_hit_attribution_grouping.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python resched_jd370.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_resched_jd370.py
+python test_cache_hit_attribution_grouping.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_resched_jd370.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/roadsomega/resched_jd370>
+- GitHub 仓库：<https://github.com/roadsomega/cache_hit_attribution_grouping>
 
 ---
 
@@ -79,7 +79,7 @@ python test_resched_jd370.py
 roadsomega 做训练资源调度工程师·缓存命中率的归因相关的问题，方向对标面壁智能的负责人训练资源调度工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://roadsomega.github.io>
-- 仓库：<https://github.com/roadsomega/resched_jd370>
+- 仓库：<https://github.com/roadsomega/cache_hit_attribution_grouping>
 
 ## 许可
 

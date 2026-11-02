@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "roadsomega-resched_jd370"
+name = "roadsomega-cache_hit_attribution_grouping"
 version = "0.1.0"
 description = "按结构键把条目聚类，标出训练资源调度工程师·缓存命中率的归因上的同组项与各组的代表样本"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://roadsomega.github.io"
-Repository = "https://github.com/roadsomega/resched_jd370"
-Issues = "https://github.com/roadsomega/resched_jd370/issues"
+Repository = "https://github.com/roadsomega/cache_hit_attribution_grouping"
+Issues = "https://github.com/roadsomega/cache_hit_attribution_grouping/issues"
 
 [project.scripts]
-resched_jd370 = "resched_jd370:main"
+cache_hit_attribution_grouping = "cache_hit_attribution_grouping:main"
 
 [tool.setuptools]
-py-modules = ["resched_jd370"]
+py-modules = ["cache_hit_attribution_grouping"]
